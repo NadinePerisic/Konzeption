@@ -15,18 +15,18 @@
     <body>
         <a-scene embedded arjs='sourceType: webcam;' vr-mode-ui="enabled: false">
 
-            <a-marker type='pattern' url='pattern-.patt'>
+            <a-marker type='pattern' url='pattern-Baum'>
                 <a-plane width='1.5' height='1.5' position='0 1 0' rotation="0 180 0" src='textures/hfu-logo.png'
                     alpha-test></a-plane>
 
-                <a-plane width='.2' height='.2' position='-.8 1.1 1' src='textures tree/ahorn.png' alpha-test></a-plane>
+                <a-plane width='.2' height='.2' position='-.8 1.1 1' src='textures-tree/ahorn.png' alpha-test></a-plane>
 
-                <a-plane width='.7' height='.7' position='.5 .8 -2' src='textures tree/eiche.png' alpha-test></a-plane>
+                <a-plane width='.7' height='.7' position='.5 .8 -2' src='textures-tree/eiche.png' alpha-test></a-plane>
             </a-marker>
 
             <a-entity camera></a-entity>
         </a-scene>
-        <autoplay src='ton/test-ton.mp3'></autoplay>
+        <audio src= 'ton/test-ton.mp3' autoplay-loop></audio>
     </body>
 
 </html>
