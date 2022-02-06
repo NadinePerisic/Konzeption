@@ -18,6 +18,12 @@ h2{
     font-weight: bolder;
     font-family: arial, arial, sans-serif;
 }
+h3{
+    color: #0a471d;
+    font-size: large;
+    font-weight: bolder;
+    font-family: arial, arial, sans-serif;
+}
 .textheader{
     color: #0a471d;
     font-size: 18px;
